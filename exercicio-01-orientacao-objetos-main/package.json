@@ -1,0 +1,24 @@
+{
+  "name": "semana-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:questao-01": "ts-node src/questao-01/main.ts",
+    "start:questao-02": "ts-node src/questao-02/main.ts",
+    "start:questao-03": "ts-node src/questao-03/main.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "ts-jest": "^28.0.4",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "jest": "^28.1.1"
+  }
+}
